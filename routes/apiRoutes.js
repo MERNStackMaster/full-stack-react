@@ -9,8 +9,11 @@ Router.post('/newuser', (req, res) => { // this route only fires when a request 
 
     // in the real world, we would now right this data to mongodb or some other server!
     console.log(req.body);
-    
+
     res.send('Test 2');
 });
 
 module.exports = Router;
+
+// I'm going to take a look at the CC extension too! Would be grea to have this!
+// Thanks for watching! I'm going to leave it at that for now! I'll stream again soon, hopefully with CC
